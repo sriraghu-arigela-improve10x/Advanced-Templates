@@ -8,11 +8,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.time.temporal.Temporal;
 
-public class AdvanceTemplatesViewHolder extends RecyclerView.ViewHolder {
+public class TemplatesViewHolder extends RecyclerView.ViewHolder {
 
     public TextView messageTxt;
 
-    public AdvanceTemplatesViewHolder(@NonNull View itemView) {
+    public TemplatesViewHolder(@NonNull View itemView) {
         super(itemView);
         messageTxt = itemView.findViewById(R.id.message_txt);
     }
