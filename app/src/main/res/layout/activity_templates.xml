@@ -9,7 +9,19 @@
     tools:context=".TemplatesActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/template_rv"
+        android:id="@+id/templates_rv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
 </LinearLayout>
